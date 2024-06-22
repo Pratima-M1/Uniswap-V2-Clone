@@ -1,6 +1,6 @@
 // Importing required modules and libraries from the ethers.js library.
 const { Contract, ContractFactory } = require("ethers");
-const WETH_ADDRESS = "0x4200000000000000000000000000000000000006";
+const WETH_ADDRESS = "";
 // Importing the contract JSON artifacts.
 const WETH9 = require("../WETH9.json");
 const factoryArtifact = require("../artifacts/contracts/core/UniswapV2Factory.sol/UniswapV2Factory.json");
