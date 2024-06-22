@@ -36,7 +36,17 @@ cd Uniswap-V2-Clone
 2. To deploy and mint security token and fractionalize , sell shares of asset run
 
 ```sh
-npx hardhat run scripts/01_deployContract.js --netowrk NETWORK
+npx hardhat run scripts/01_deployContracts.js --netowrk NETWORK
+```
+
+3.To swap token replace all addresses woth deployed addresses
+
+- const USDT_ADDRESS = "";
+- const USDC_ADDRESS = "";
+- const ROUTER_ADDRESS = "";
+
+```sh
+npx hardhat run scripts/swap.js --netowrk NETWORK
 ```
 
 Replace NETWORK valide network of your choice (ex: sepolia or base-sepolia)
