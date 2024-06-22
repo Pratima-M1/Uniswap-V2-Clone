@@ -2,12 +2,12 @@
 const { Contract, ContractFactory } = require("ethers");
 
 // Importing the contract JSON artifacts.
-const USDT_ADDRESS = "0x409744140C4044f373b640FBe974B420fab015D9";
-const USDC_ADDRESS = "0x4DA8C402F46380f950cAbc91EA38159B4c90ddDE";
-const WETH_ADDRESS = "0x4200000000000000000000000000000000000006";
-const FACTORY_ADDRESS = "0x41c9D51929D6Eddf23901c1A7D16722C3dEC3889";
-const ROUTER_ADDRESS = "0x4602443267BB60Ec6692d371954a60ED87F20884";
-const PAIR_ADDRESS = "0xDeE017292f6Bd463960B792328ec6c44783fb38e";
+const USDT_ADDRESS = "";
+const USDC_ADDRESS = "";
+const WETH_ADDRESS = "";
+const FACTORY_ADDRESS = "";
+const ROUTER_ADDRESS = "";
+const PAIR_ADDRESS = "";
 const { ethers } = require("hardhat");
 
 // Main deployment function.
