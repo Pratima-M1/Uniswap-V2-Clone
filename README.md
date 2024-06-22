@@ -21,7 +21,7 @@ This repository provides scripts and contracts for deploying Uniswap V2 contract
 Installation
 
 ```bash
-git clone https://github.com/Prodigal-Blockchain/Uniswap-V2-Clone.git
+git clone https://github.com/Pratima-M1/Uniswap-V2-Clone.git
 cd Uniswap-V2-Clone
 ```
 
