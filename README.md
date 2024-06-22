@@ -47,7 +47,7 @@ npx hardhat run scripts/01_deployContracts.js --netowrk NETWORK
 - const ROUTER_ADDRESS = "";
 
 ```sh
-npx hardhat run scripts/swap.js --netowrk NETWORK
+npx hardhat run scripts/02_swap.js --netowrk NETWORK
 ```
 
 Replace NETWORK valide network of your choice (ex: sepolia or base-sepolia)
