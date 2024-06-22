@@ -31,7 +31,8 @@ cd Uniswap-V2-Clone
 
    - RPC_URL=
    - PRIVATE_KEY=
-   - ETHERSCAN_API=
+   - ETHERSCAN_API= or
+   - BASESCAN_API=
 
 2. To deploy and mint security token and fractionalize , sell shares of asset run
 
