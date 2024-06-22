@@ -2,10 +2,10 @@
 const { Contract, ContractFactory } = require("ethers");
 
 // Importing the contract JSON artifacts.
-// Contract addresses
-const USDT_ADDRESS = "0x409744140C4044f373b640FBe974B420fab015D9";
-const USDC_ADDRESS = "0x4DA8C402F46380f950cAbc91EA38159B4c90ddDE";
-const ROUTER_ADDRESS = "0x4602443267BB60Ec6692d371954a60ED87F20884";
+// Contract addresses<Replace with deployed addresses>
+const USDT_ADDRESS = "";
+const USDC_ADDRESS = "";
+const ROUTER_ADDRESS = "";
 const routerArtifact = require("../artifacts/contracts/periphery/UniswapV2Router02.sol/UniswapV2Router02.json");
 const usdtArtifact = require("../artifacts/contracts/USDT.sol/Tether.json");
 const usdcArtifact = require("../artifacts/contracts/USDC.sol/UsdCoin.json");

@@ -143,7 +143,7 @@ async function main() {
 }
 
 // This command is used to run the script using hardhat.
-// npx hardhat run --network localhost scripts/01_deployContracts.js
+// npx hardhat run --network <REPLACE_NETWORK> scripts/01_deployContracts.js
 
 // Executing the main function and handling possible outcomes.
 main()
