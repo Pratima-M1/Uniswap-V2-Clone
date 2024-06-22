@@ -23,30 +23,25 @@ Installation
 ```bash
 git clone https://github.com/Pratima-M1/Uniswap-V2-Clone.git
 cd Uniswap-V2-Clone
+npm install
 ```
 
 ### Deployment
 
-1. Install dependencies
-
-```sh
-npm install
-```
-
-2. Replace .env.example with .env and replace
+1. Replace .env.example with .env and replace
 
    - RPC_URL=
    - PRIVATE_KEY=
    - ETHERSCAN_API= or
    - BASESCAN_API=
 
-3. To deploy and addLiquidity to pair(pool)
+2. To deploy and addLiquidity to pair(pool)
 
 ```sh
 npx hardhat run scripts/01_deployContracts.js --netowrk NETWORK
 ```
 
-4. To swap token replace all addresses woth deployed addresses
+3. To swap token replace all addresses woth deployed addresses
 
 - const USDT_ADDRESS = "";
 - const USDC_ADDRESS = "";
