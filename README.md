@@ -34,7 +34,7 @@ cd Uniswap-V2-Clone
    - ETHERSCAN_API= or
    - BASESCAN_API=
 
-2. To deploy and mint security token and fractionalize , sell shares of asset run
+2. To deploy and addLiquidity to pair(pool)
 
 ```sh
 npx hardhat run scripts/01_deployContracts.js --netowrk NETWORK
