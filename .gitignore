@@ -1,0 +1,21 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+/other_script
+/test
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+/sepolia.txt
+/basesepolia.txt
+/goldbarcoin.json
+/tether.json
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
